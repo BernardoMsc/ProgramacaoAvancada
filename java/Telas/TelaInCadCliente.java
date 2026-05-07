@@ -4,7 +4,7 @@
  */
 package Telas;
 
-import controladores.TestandoCliente;
+import controladores.ControlaCliente;
 import entidades.Cliente;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
@@ -16,7 +16,7 @@ import javax.swing.table.AbstractTableModel;
  */
 public class TelaInCadCliente extends javax.swing.JInternalFrame {
 
-    TestandoCliente tc = new TestandoCliente();
+    ControlaCliente tc = new ControlaCliente();
 
     /**
      * Creates new form TelaInCadCliente

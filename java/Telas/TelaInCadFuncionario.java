@@ -4,7 +4,7 @@
  */
 package Telas;
 
-import controladores.TestandoFuncionario;
+import controladores.ControlaFuncionario;
 import entidades.Funcionario;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
@@ -16,7 +16,7 @@ import javax.swing.table.AbstractTableModel;
  */
 public class TelaInCadFuncionario extends javax.swing.JInternalFrame {
 
-    TestandoFuncionario tf = new TestandoFuncionario();
+    ControlaFuncionario tf = new ControlaFuncionario();
 
     /**
      * Creates new form TelaInCadFuncionario

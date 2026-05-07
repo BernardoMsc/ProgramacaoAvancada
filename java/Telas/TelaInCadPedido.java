@@ -4,7 +4,7 @@
  */
 package Telas;
 
-import controladores.TestandoPedido;
+import controladores.ControlaPedido;
 import entidades.Pedido;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
@@ -16,7 +16,7 @@ import javax.swing.table.AbstractTableModel;
  */
 public class TelaInCadPedido extends javax.swing.JInternalFrame {
 
-    TestandoPedido tp = new TestandoPedido();
+    ControlaPedido tp = new ControlaPedido();
 
     /**
      * Creates new form TelaInCadPedido
